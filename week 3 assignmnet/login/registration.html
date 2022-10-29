@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        body{
+            background: blue;
+        }
+        .box {
+            background-color: #fff;
+            margin: 10px auto;
+            padding: 20px;
+            border-radius: 6px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 box">
+                <h2 class="text-center">REGISTRATION FORM</h2>
+                <p class="text-center">Please kindly fill the form below correctly.</p>
+
+                    <form method="post" action="">
+
+                        <div class="form-group">
+                            <label for="fname">Firstname</label>
+                            <input type="text" name="fname" class="form-control" placeholder=" Enter Firstname" required>
+                        </div>
+    
+                        <div class="form-group" >
+                            <label for="lastname">Lastname</label>
+                            <input type="text" name="lastname" class="form-control" placeholder="Enter Lastname" required>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="Phonenumber">Phonenumber</label>
+                            <input type="tel" name="Phonenumber" class="form-control" placeholder="Enter Phonenumber" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email </label>
+                            <input type="text" name="email" class="form-control" placeholder="Enter Email" required>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" class="form-control" placeholder=" Enter Password" required>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" name="confirm-password" class="form-control" placeholder=" Confirm Password" required>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="gender">Gender</label>       
+                            <select name="gender" class="form-control" id="exampleFormControlSelect1">
+                                <option>Select Option</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                              </select>
+                        </div>
+    
+                        <div class="form-group" >
+                            <label for="date of birth">Date Of Birth</label>
+                            <input type="date" name="dob" class="form-control">
+                        </div>
+    
+                        <div class="form-group" >
+                            <label for="Favorite">Favorite Color</label>
+                            <input type="color" name="fcolor" class="form-control" required>
+                        </div>
+    
+                        <div class="form-group">
+                        <a href="#">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                        </a>
+    
+                        <p class="text-center"> Already have an account? <a href="login.html">Click To Login</a></p>
+                        </div>
+
+                    </form>
+
+                    
+
+            </div>
+
+        </div>
+    </div>
+ 
+
+   
+</body>
+</html>
